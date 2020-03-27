@@ -1,0 +1,21 @@
+{
+  "name": "marianalungu.io",
+  "version": "3.0.0",
+  "description": "Mariana Lungu's personal website",
+  "devDependencies": {
+    "stylus": "^0.52.4"
+  },
+  "scripts": {
+    "watch": "stylus --watch ./src/styles/index.styl -o ./index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marlungu/website_version_3-"
+  },
+  "keywords": [],
+  "author": "marlungu",
+  "license": "MIT",
+  "dependencies": {
+    "send": "^0.16.2"
+  }
+}
