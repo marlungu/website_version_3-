@@ -732,41 +732,41 @@ section.coordinators .profile {
     margin: 20px 0;
   }
 }
-section.details {
+section.aboutme {
   padding: 30px;
   position: relative;
 }
 @media (min-width: 1070px) {
-  section.details {
+  section.aboutme {
     padding: 150px 0 0 0;
   }
 }
-section.details a {
+section.aboutme a {
   width: 250px;
   text-align: center;
   margin: 60px auto 0 auto;
   display: block;
 }
-section.details img {
+section.aboutme img {
   margin: 100px auto 0 auto;
   display: block;
   transition: transform 1s ease;
 }
-section.details img:hover {
+section.aboutme img:hover {
   transform: scale(1.1) rotate(20deg);
 }
 @media (min-width: 1070px) {
-  section.details img {
+  section.aboutme img {
     margin: 0;
     position: absolute;
     top: 100%;
     left: -10%;
   }
 }
-section.details h1 {
+section.aboutme h1 {
   flex-basis: 100%;
 }
-section.details h3 {
+section.aboutme h3 {
   width: 250px;
   font: bold 15px var(--geo);
   padding: 0 20px;
@@ -778,7 +778,7 @@ section.details h3 {
   top: -26px;
   background-color: var(--background);
 }
-section.details div {
+section.aboutme div {
   max-width: 600px;
   padding: 10px 20px;
   margin: 60px auto 0 auto;
@@ -786,7 +786,7 @@ section.details div {
   border: 1px solid #000;
 }
 @media (min-width: 1070px) {
-  section.details div {
+  section.aboutme div {
     margin: 100px auto 0 auto;
   }
 }
